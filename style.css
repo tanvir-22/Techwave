@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+@layer utilities{
+    .font-inter{
+        font-family: "Inter", sans-serif;
+    }
+}
+.mygradient{
+     background: linear-gradient(20deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+}
+.logo{
+   
+    text-decoration: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.strk{
+    -webkit-text-stroke: 0.001px #000; /*border of the text*/
+}

@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="font-inter">
+    <header class="bg-[#1A0B2E] text-white " >
+        <nav class="py-6 flex items-center max-w-[1200px] mx-auto justify-between  ">
+       <h2 class="strk text-4xl font-extrabold bg-clip-text"> Tech<span class="logo mygradient ">Wave</span></h2>    
+   
+            <ul class="flex gap-[32px] text-base leading-[120%]">
+                <li><a href="">About</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">Host</a></li>
+            </ul>
+           <button class="mygradient px-[16px] py-[12px] rounded-[10000px]">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+        </nav>
+
+       <section class="hero-section mt-[75px]  bg-[url('assets/hero-bg.png')] bg-center bg-no-repeat ">
+        <div class="hero-container max-w-[550px] h-[555px] mx-auto flex flex-col justify-center items-center ">
+            <div class=" hero-bg-div bg-[url(assets/hero-circle.png)] bg-center bg-no-repeat w-[350px] h-[350px]">
+                <img class="mx-auto my-[30%]" src="assets/microphone.png" alt="">
+            </div>
+            <div class="hero-content text-center">
+                <h2 class="mt-[40px] font-extrabold text-6xl">TechWave</h2>
+                <p class="text-base text-[#ffffff81] mt-8px mb-[24px]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="btn-div">
+                    <button class="mygradient px-[16px] py-[12px] rounded-[10000px]"><i class="fa-brands fa-spotify"></i> Listen on Spotify </button>
+                     <button class="text-[#00FF88] border-[#00FF88] border-solid border-2 px-[16px] py-[12px] rounded-[10000px]"><i class="fa-regular fa-envelope"></i> Subscribe </button> 
+                </div>
+            </div>
+
+        </div>
+       </section>
     
+    </header>
 </body>
 </html>
