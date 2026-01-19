@@ -18,3 +18,7 @@
 .strk{
     -webkit-text-stroke: 0.001px #000; /*border of the text*/
 }
+hr{
+   color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+   opacity: 0.1;
+}
